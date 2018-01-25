@@ -20,7 +20,7 @@ CLASSIFIERS = [
     'Programming Language :: Python :: 3.6',
     'Topic :: Documentation :: Sphinx',
 ]
-KEYWORDS = ("asyncio", "patch")
+KEYWORDS = ["asyncio", "patch"]
 PACKAGES = find_packages(exclude=['contrib', 'docs', 'test'])
 ZIP_SAFE = False
 
@@ -58,7 +58,8 @@ setup(
     },
 
     zip_safe=ZIP_SAFE,
-    data_files=[('requirements', ['requirements/requirements.txt',
-                                  'requirements/requirements_dev.txt',
-                                  'requirements/requirements_test.txt'])]
+    data_files=[('requirements',
+                 ['requirements/requirements.txt',
+                  'requirements/requirements_dev.txt',
+                  'requirements/requirements_test.txt'])]
 )
